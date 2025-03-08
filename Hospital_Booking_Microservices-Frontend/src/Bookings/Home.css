@@ -1,0 +1,17 @@
+.home-container {
+  min-height: 100vh;
+}
+
+/* Style the home-content to display the background image correctly */
+.home-content {
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 56px - 60px); /* Adjust this based on your navbar (56px) and footer heights (approx. 60px) */
+  padding: 50px 0;
+}
+
+/* Optional: Adjust card styling */
+.card {
+  margin: 20px auto;
+  /* You might want to add a subtle shadow or transparent background if needed */
+}
